@@ -1,0 +1,35 @@
+.items-list {
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.cart-item {
+  padding: 1rem 0;
+  border-bottom: 2px solid #7e2606;
+}
+.btns {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+.btns button {
+  padding: 0.75rem 2rem;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+.order-btn {
+  background-color: #7e2606;
+}
+.close-btn {
+  background-color: white;
+  border: 1px solid #7e2606;
+  color: #7e2606;
+}
